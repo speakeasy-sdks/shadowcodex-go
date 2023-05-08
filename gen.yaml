@@ -1,13 +1,14 @@
 configVersion: 1.0.0
+management:
+  docChecksum: de8c4516ac64d5cabfcf17cf0cc51b8f
+  docVersion: 1.7.0
+  speakeasyVersion: 1.29.1
+  generationVersion: 2.26.1
 generation:
-  comments:
-    disableComments: false
-    omitDescriptionIfSummaryPresent: false
-  baseServerURL: ""
+  telemetryEnabled: false
   sdkClassName: slack-spec
   singleTagPerOp: false
-  tagNamespacingDisabled: false
-  telemetryEnabled: false
 go:
-  version: 0.0.1
+  version: 1.0.0
+  maxMethodParams: 0
   packageName: slack-spec
